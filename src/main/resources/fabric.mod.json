@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "void_power",
+  "version": "${version}",
+  "name": "VoidPower Mod",
+  "description": "Fabric version of Void Power Mod, a mod that adds a computer peripheral to the Create mod. It allows you to control contraptions using a computer. Compatible with Create 0.5.1+",
+  "authors": [
+    "llyycci"
+  ],
+  "contact": {
+    "sources": "https://github.com/llyycci/VoidPowerMod-fabric-1.20.1"
+  },
+  "license": "CC0",
+  "icon": "icon400.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.llyycci.void_power.VoidPowerMod"
+    ],
+    "client": [
+      "com.llyycci.void_power.events.ClientRegisterEvent"
+    ]
+  },
+  "mixins": [
+    "void_power.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener": "void_power.accesswidener"
+}
