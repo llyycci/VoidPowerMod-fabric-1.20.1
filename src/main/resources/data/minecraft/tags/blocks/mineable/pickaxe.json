@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "void_power:engine_controller",
+    "void_power:glass_screen",
+    "void_power:hologram",
+    "void_power:redstone_broadcaster",
+    "void_power:redstone_receiver",
+    "void_power:redstone_router",
+    "void_power:void_engine"
+  ]
+}

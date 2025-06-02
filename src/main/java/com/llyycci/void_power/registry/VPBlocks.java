@@ -20,6 +20,7 @@ import net.minecraft.client.renderer.RenderType;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.axeOrPickaxe;
 
+
 public class VPBlocks {
 	private static final CreateRegistrate REGISTRATE = VoidPowerMod.registrate();
 
@@ -41,6 +42,7 @@ public class VPBlocks {
 			.blockstate(BlockStateGen.horizontalBlockProvider(true))
 			//.addLayer(() -> RenderType::translucent)
 			//.transform(BlockStressDefaults.setImpact(8.0))
+
 			.item()
 			.transform(customItemModel())
 			.register();

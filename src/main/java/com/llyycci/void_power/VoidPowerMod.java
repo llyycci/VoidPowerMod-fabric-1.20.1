@@ -39,11 +39,13 @@ public class VoidPowerMod implements ModInitializer {
 				() -> () -> "{} is accessing Porting Lib from the server!"
 		), NAME);
 		//register before REGISTRATE
-		VPItems.register();
 		VPBlocks.register();
+		VPItems.register();
 		VPTileEntities.register();
-		VPCreativeTabs.register();
+
 		REGISTRATE.register();
+
+		VPCreativeTabs.register();
 		//register after REGISTRATE
 		ModConfigs.register();
 		PacketManager.Init();

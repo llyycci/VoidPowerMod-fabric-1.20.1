@@ -116,6 +116,7 @@ dependencies {
 	modImplementation "maven.modrinth:valkyrien-skies:1.20.1-fabric-2.3.0-beta.5"
 	// Create Tweaked Controller(local)
 	modImplementation("io.github.llyycci:create_tweaked_controllers:${project.ctc_version}")
+//	modImplementation("libs:create_tweaked_controllers-0.1.0+1.20.1[0.5.1j]")
 	// Unlimited Peripheral Works//TODO: 检查如何引入此mod
 //	modImplementation "curse.maven:unlimitedperipheralworks-621851:5077950"
 	modImplementation("libs:peripheralium-fabric-1.20.1-0.6.15")

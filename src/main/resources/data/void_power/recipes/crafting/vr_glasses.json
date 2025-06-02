@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IWI",
+      "IPI",
+      "GGG"
+    ],
+    "key": {
+      "I": {
+        "item": "create:iron_sheet"
+      },
+      "W": {
+        "item": "computercraft:wireless_modem_advanced"
+      },
+      "P": {
+         "item": "computercraft:pocket_computer_advanced"
+       },
+      "G": {
+        "item": "void_power:glass_screen"
+      }
+    },
+    "result": {
+      "item": "void_power:vr_glasses"
+    }
+}
